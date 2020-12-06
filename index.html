@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    
+    <div class="signup">
+        <h1 class="signup-heading">Sign up</h1>
+        <button class="signup-social">
+            <i class="fab fa-google signup-social-icon"></i>
+            <span class="signup-social-text">Sign up with Google</span>
+        </button>
+        <div class="signup-or"><span>Or</span></div>
+        <form action="" method="post" autocomplete="off">
+            <label for="fullname" class="signup-label">Full name</label>
+            <input type="text" id="fullname" placeholder="Eg: Hoang Duy" class="signup-input">
+            <label for="email" class="signup-label">Email</label>
+            <input type="text" id="email" placeholder="Eg: hhd@gmail.com" class="signup-input">
+            <button class="signup-submit">Sign up</button>
+        </form>
+        <p class="signup-already">
+            <span>Already have an account ?</span>
+            <a href="" class="signup-login-link">Login</a>
+        </p>
+    </div>
 </body>
 </html>
